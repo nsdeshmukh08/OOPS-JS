@@ -45,5 +45,6 @@ console.log("===>", mgr1.getName());
 console.log("===>", mgr1.getDepartment());
 // This function will get call from the manager's prototype.
 console.log("===>", mgr1.getSalary());
+
 // This will access variable Cast from the Employee class.
 console.log("===>", mgr1.getCast());
