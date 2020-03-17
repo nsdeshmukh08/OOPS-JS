@@ -2,7 +2,7 @@ function Employee(name, dept, salary){
     this.dept = dept;
     this.name = name;
     this.salary = salary;
-    this.cast = 'Indian'
+    this.cast = 'Indian';
 }
 
 Employee.prototype.getName = function(){
@@ -44,6 +44,6 @@ var mgr1 = new Manager('Narayan', 'IT', '1lakh');
 console.log("===>", mgr1.getName());
 console.log("===>", mgr1.getDepartment());
 // This function will get call from the manager's prototype.
-console.log("===>", mgr1.getSalary(123));
+console.log("===>", mgr1.getSalary());
 // This will access variable Cast from the Employee class.
 console.log("===>", mgr1.getCast());
